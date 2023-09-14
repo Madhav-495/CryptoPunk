@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background-color: #e2f5f7;
+}
+#logo_img
+{ 
+    width:100%;
+}
+#heading-cont
+{
+    width:100%;
+    
+}
+.divider
+{
+    width: 100%;
+    height: 50px; /* Adjust as needed */
+    background: linear-gradient(to bottom, transparent, #f5b642, transparent);
+    margin: 0 10px;
+}
+#form-container
+{
+    width:70%;
+    margin-top:10%;
+    margin-bottom:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   
+    height: 930px;
+    box-shadow: 0 -8px 6px -6px black,8px 0 6px -6px black,0 8px 6px -6px black,-8px 0 6px -6px black;
+}
+#form-container:hover
+{
+    box-shadow: 0 -8px 6px -6px #f5b642,8px 0 6px -6px #f5b642,0 8px 6px -6px #f5b642,-8px 0 6px -6px #f5b642;
+}
+
+.input-header 
+{
+    font-family: cursive;
+    font-size:2rem;
+    margin-right:2%;
+}
+#form-container label 
+{
+    display: inline-block ;
+}
+.form-inner-container
+{
+    margin-top:5%;
+}
+.form-inner-container-input
+{
+    height: 48px;
+    border: 4px solid #f5b642;
+    border-radius: 24px;
+    width: 62%;
+    text-align: center;
+}
+#form-heading 
+{
+    text-align:center;
+    display: block;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+.form-heading-content
+{
+    font-family:cursive;
+    color:#f5b642
+}
+#form-btn
+{
+    width:100%;
+    
+}
+#form-btn button{
+    width:100%;
+    background-color: #f5b642;
+    margin-top:4%;
+    height:50px;
+    border-radius: 15px;
+}
+#form-checkbox
+{
+    margin-top:3%;
+}
+#checkbox-text
+{
+    margin-left:1%;
+}
+#checkbox-label
+{
+    width:100%;
+}
+#form-google-btn
+{
+    display: flex;
+
+}
+#form-google-btn
+{
+    width:100%;
+    margin-top:4%;
+}
+#google-form-btn2
+{
+    width:50%;
+}
+#google-form-btn3
+{
+    width:50%;
+}
+#btn1
+{
+    width:104%;
+    height:38px;
+    border-radius:5px;
+    color: #f5b642;
+    margin-top:4%;
+    background-color: white;
+    font-weight:bolder;
+    border:2px solid #f5b642;
+}
+#btn2
+{
+    width:104%;
+    height:38px;
+    border-radius:5px;
+    color:#f5b642;
+    background-color: white;
+    margin-top:4%;
+    font-weight:bolder;
+    border:2px solid #f5b642;
+}
+#google-icon
+{
+    margin-right:2%
+}
+#email-icon
+{
+    margin-right:2%
+}
+#google-form-btn1 button:hover
+{
+    background-color: #f5b642;
+    color:white;
+}
+#email-form-btn2 button:hover
+{
+    background-color: #f5b642;
+    color:white
+}
+#inner-container
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#error-message
+{
+    text-align: center;
+}

@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    bottom:0;
+}
+.container
+{
+    width:80%;
+    height:500px;
+    margin-bottom:1%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.image-container
+{
+    width:50%;
+    height:400px;
+    margin-right:4%;
+    
+}
+.image-container img
+{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    object-position: center; 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.text-container
+{
+    width:50%;
+    height:400px;
+    
+}
+.main-heading
+{
+    font-family: cursive;
+    text-align:center;
+}
+.text-container-heading
+{
+    font-family:cursive;
+    color:orange;
+    font-size:xx-large ;
+    text-align: center;
+}
+.text-container-heading-para
+{
+    font-family: cursive;
+    text-align:center;
+    font-size: medium;
+}
+.text-container-price
+{
+    font-family:cursive;
+    color:orange;
+    font-size:x-large ;
+}
+.text-container-price-para
+{
+    font-family: cursive;
+    text-align:center;
+    font-size:larger;
+}
+.clock-container
+{
+    display: flex;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height:60px;
+
+
+}
+.time-container
+{
+    background-color: #f5b642;
+    color:white;
+    width:20%;
+    height:100%;
+    padding:0;
+    
+
+}
+.time-container h4
+{
+    text-align:center;
+    margin-top:1%;
+    font-weight: bolder;
+    font-family: cursive;
+}
+.time-container h3
+{
+    margin-top: 0;
+    font-size: xx-large;
+    margin-bottom: 0;
+}

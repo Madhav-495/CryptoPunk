@@ -1,0 +1,13 @@
+#footer-div
+{
+    background-color:#f5b642;
+    width:100%;
+    height:50px;
+    align-items: center;
+    bottom:0;
+}
+h3{
+    font-size:inherit;
+    text-align:center;
+    font-family: cursive;
+}

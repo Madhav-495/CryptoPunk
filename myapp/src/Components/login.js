@@ -42,32 +42,25 @@ const Login = () => {
     return (
         <>
             <NavBar />
-            <div className="container" id="main-container">
-                <div className="container" id="form-Container">
-                    <div className="container" id="form-heading">
-                        <h1 className="form-heading-content">
-                            Login
-                        </h1>
+            <div className="container">
+                <div className="main-container">
+                    <div className="heading-container">
+                        <h1></h1>
                     </div>
-                    <div className="divider"></div>
-                    <div className="container" id="inner-container">
-                        <div className="container form-inner-container">
-                            <label htmlFor="user_email" className="input-header">Email:</label>
-                            <input type="email" name="email" placeholder="Enter your Email" id="user_email" className="form-inner-container-input" onChange={onChangeHandler} />
-                        </div>
-
-                        <div className="container form-inner-container">
-                            <label htmlFor="passwd" className="input-header">Password:</label>
-                            <input type="password" name="password" placeholder="Enter your password" id="passwd" className="form-inner-container-input" onChange={onChangeHandler} />
-                        </div>
-                         
+                    <div className="form-field-container">
+                        <label htmlFor="email">Email</label>
+                        <input type="text" name="" id="email" />
                     </div>
-                    {/* code for the form submit button */}
-                    <div className="container " id="form-btn">
-                            <button type="submit"  onClick={dataHandler}>Submit</button>
+                    <div className="form-field-container">
+                        <label htmlFor="Password">Password</label>
+                        <input type="Password" name="" id="Password" />
+                    </div>
+                    <div className="btn-holder " id="form-btn">
+                            <button type="submit"  onClick={dataHandler}>LOGIN</button>
                     </div>
                 </div>
             </div>
+
             <Footer />
         </>
     );
